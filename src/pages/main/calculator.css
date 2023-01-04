@@ -1,0 +1,68 @@
+.app {
+  margin-top: 5px;
+  width: 35%;
+  height: 110vh;
+  background-color: black;
+  color: white;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: 80px;
+}
+.bt-1 > i {
+  padding-top: 0;
+  margin-left: 4px;
+  font-size: 8px;
+}
+.bt-2 > i {
+  padding-top: 0;
+  margin-left: 4px;
+  font-size: 8px;
+}
+
+.left {
+  display: flex;
+}
+i {
+  padding: 0;
+  margin: 1px;
+}
+
+.network {
+  margin-left: 2px;
+  margin-top: 1px;
+}
+
+.Wifi {
+  margin-left: 3px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+.right p {
+  margin-right: 5px;
+}
+
+.display {
+  font-size: 100px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
